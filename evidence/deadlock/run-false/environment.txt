@@ -1,0 +1,26 @@
+Linux c53a897306a5 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+uid=10001(agent) gid=10001(agent) groups=10001(agent)
+6
+100000 100000
+1073741824
+AGENT_HOME=/home/agent/app
+AGENT_KEY_PATH=/home/agent/app/api_keys
+AGENT_LOG_DIR=/evidence
+AGENT_PORT=15034
+AGENT_UPLOAD_DIR=/home/agent/app/upload_files
+CPU_MAX_OCCUPY=10
+MEMORY_LIMIT=512
+MULTI_THREAD_ENABLE=false

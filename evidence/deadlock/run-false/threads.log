@@ -1,0 +1,161 @@
+2026-11-20T09:06:18.832Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 R    -                         00:00:00  1936
+2026-11-20T09:06:20.940Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SN   poll_schedule_timeout.con 00:00:00 18016
+142 /evidence/agent_app.log
+2026-11-20T09:06:22.989Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 32392
+     23      29 RNl  -                         00:00:00 32392
+2033 /evidence/agent_app.log
+2026-11-20T09:06:25.063Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 43884
+     23      29 SNl  poll_schedule_timeout.con 00:00:00 43884
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 43884
+2236 /evidence/agent_app.log
+2026-11-20T09:06:27.163Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 62988
+     23      29 RNl  -                         00:00:01 62988
+     23      35 SNl  futex_do_wait             00:00:00 62988
+2323 /evidence/agent_app.log
+2026-11-20T09:06:29.378Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 69496
+     23      29 SNl  poll_schedule_timeout.con 00:00:01 69496
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 69496
+2452 /evidence/agent_app.log
+2026-11-20T09:06:31.490Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 90044
+     23      29 RNl  -                         00:00:02 90044
+     23      35 SNl  futex_do_wait             00:00:00 90048
+2452 /evidence/agent_app.log
+2026-11-20T09:06:33.576Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 101788
+     23      29 RNl  -                         00:00:03 101788
+     23      35 SNl  futex_do_wait             00:00:00 101792
+2676 /evidence/agent_app.log
+2026-11-20T09:06:38.137Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 107924
+     23      29 RNl  -                         00:00:05 107924
+     23      35 SNl  futex_do_wait             00:00:00 107924
+2676 /evidence/agent_app.log
+2026-11-20T09:06:41.110Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 120704
+     23      29 SNl  poll_schedule_timeout.con 00:00:06 120704
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 120704
+2805 /evidence/agent_app.log
+2026-11-20T09:06:43.270Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 120704
+     23      29 SNl  poll_schedule_timeout.con 00:00:06 120704
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 120704
+2892 /evidence/agent_app.log
+2026-11-20T09:06:47.017Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 146308
+     23      29 SNl  poll_schedule_timeout.con 00:00:07 146308
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 146308
+3022 /evidence/agent_app.log
+2026-11-20T09:06:49.089Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 166684
+     23      29 RNl  -                         00:00:08 166684
+     23      35 SNl  futex_do_wait             00:00:00 166684
+3118 /evidence/agent_app.log
+2026-11-20T09:06:51.206Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 171912
+     23      29 SNl  poll_schedule_timeout.con 00:00:08 171912
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 171912
+3247 /evidence/agent_app.log
+2026-11-20T09:06:53.437Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 197516
+     23      29 SNl  poll_schedule_timeout.con 00:00:09 197516
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 197516
+3376 /evidence/agent_app.log
+2026-11-20T09:06:55.849Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 SNl  futex_do_wait             00:00:00 197516
+     23      29 SNl  poll_schedule_timeout.con 00:00:09 197516
+     23      35 SNl  poll_schedule_timeout.con 00:00:00 197516
+3376 /evidence/agent_app.log
+2026-11-20T09:06:58.812Z
+    PID    PPID                  STARTED COMMAND
+     20      17 Fri Nov 20 09:06:17 2026 ./agent-leak-app
+     23      20 Fri Nov 20 09:06:18 2026 ./agent-leak-app
+    PID     LWP STAT WCHAN                         TIME   RSS
+     20      20 S    do_wait                   00:00:00  2156
+     23      23 ZNl  -                         00:00:00     0
+     23      35 RNl  -                         00:00:00     0
+3505 /evidence/agent_app.log

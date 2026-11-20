@@ -1,0 +1,19 @@
+FROM ubuntu:24.04
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ca-certificates libstdc++6 procps \
+    && rm -rf /var/lib/apt/lists/* \
+    && groupadd --gid 10001 agent \
+    && useradd --uid 10001 --gid agent --create-home agent \
+    && mkdir -p /home/agent/app/upload_files /home/agent/app/api_keys /home/agent/app/logs \
+    && printf '%s' 'agent_api_key_test' > /home/agent/app/api_keys/secret.key \
+    && chown -R agent:agent /home/agent/app \
+    && chmod 700 /home/agent/app/api_keys \
+    && chmod 600 /home/agent/app/api_keys/secret.key
+
+COPY --chown=agent:agent --chmod=755 agent-app-leak/agent-leak-app-x86 /home/agent/app/agent-leak-app
+
+USER 10001:10001
+WORKDIR /home/agent/app
+EXPOSE 15034
+CMD ["./agent-leak-app"]
